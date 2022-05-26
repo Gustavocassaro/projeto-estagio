@@ -40,7 +40,7 @@
 .navbar .menu li{
     list-style: none;
     display: inline-block;
-  
+
 }
 
 .navbar .menu li a{
@@ -48,8 +48,8 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    
-
+    text-align: right;
+    ;
 }
 
 /*  Home   inicio  */
