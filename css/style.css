@@ -13,6 +13,7 @@
     padding:80px;
     margin: auto;
 }
+
 /*  navbar   inicio*/
 .navbar{
     position: fixed;
@@ -27,11 +28,11 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .logo a{
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 5px;
     font-weight: 500;
-    
     
 }
 
@@ -39,14 +40,16 @@
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+  
 }
+
 .navbar .menu li a{
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    font
     
+
 }
 
 /*  Home   inicio  */
@@ -60,7 +63,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-    margin: auto 0 auto 40px;
+    margin: auto 0 auto 30px;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -115,10 +118,7 @@
         max-width: 800px;
         padding: 0 50px;
     }
-    .menu-btn{
-        display: block;
-        z-index: 999;
-    }
+
     .navbar .menu{
         position: fixed;
         width: 100%;
@@ -128,14 +128,9 @@
         background: #111;
         padding-top: 80px;
         text-align: center;
-        transition: all 0.3s ease;
+       
     }
-    .navbar .menu.active{
-        left: 0;
-    }
-    .navbar .menu li{
-        display: block;
-    }
+    
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0;
