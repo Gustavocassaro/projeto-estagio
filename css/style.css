@@ -1,60 +1,61 @@
-    /*fonte*/
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
-
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
     *{
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
         text-decoration: none;
     }
-
+    html{
+        scroll-behavior: smooth;
+    }
     .max-width{
-        max-width:1300px;
-        padding:80px;
+        max-width: 1300px;
+        padding: 0 80px;
         margin: auto;
     }
 
-    /*  navbar   inicio*/
-    .navbar{
-        position: fixed;
-        width: 1500px;
-        padding: 15px 0;
-        font-family: 'Ubuntu', sans-serif;
     
-        
+    /*  nav   inicio*/
+    .nav{
+        position: fixed;
+        width: 100%;
+        padding: 30px 0;
+        font-family: 'Ubuntu', sans-serif;
+        z-index: 999;
+        transition: all 0.3s ease;
     }
-
-    .navbar .max-width{
+    .nav .max-width{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-
-    .navbar .logo a{
-        color: rgb(255, 255, 255);
+    .nav .logo a{
+        color:#751d75;
         font-size: 35px;
         font-weight: 500;
-    
+        
+    }
+    .nav .logo a span{
+        color:  #751d75;
+        transition: all 0.3s ease;
+
     }
 
-    .navbar .menu li{
+    .nav .menu li{
         list-style: none;
         display: inline-block;
-
     }
-
-    .navbar .menu li a{
-        color: rgb(255, 255, 255);
+    .nav .menu li a{
+        color: rgb(255, 255, 255); /*cor das letrinhas do nav(inicio,sobre)*/
         font-size: 18px;
         font-weight: 500;
         margin-left: 25px;
-    
+        transition: color 0.3s ease;
     }
-    /*cor da letra do nav (inicio,sobre)*/
-    .navbar .menu li a:hover{
-        color: #751d75;
 
-    }
+  
+    .nav .menu li a:hover{/*cor das letrinhas do nav ao passar o mouse (inicio,sobre)*/
+        color:  #751d75; }
 
     /*  Home   inicio  */
     .home{
@@ -66,30 +67,143 @@
         min-height: 500px;
         font-family: 'Ubuntu', sans-serif;
     }
-
-    /*Cor e tamanho das letras do titulo da img principal  */
+    
     .home .max-width{
-        margin: auto 0 auto 40px;
+        margin: auto 0 auto 40px;/*Cor e tamanho das letras do titulo da img principal  */
     }
-    .home .text-1{
-        font-size: 25px;
+    .home .home-content .text-1{
+        font-size: 29px;
     }
-    .home .text-2{
+    .home .home-content .text-2{
         font-size: 75px;
-        color:#9f199f ;
         font-weight: 500;
-        margin-left:
-         -3px;
+        margin-left: -3px;
+        color:#751d75;
+        font-weight: 500;
     }
-    .home .text-4{
-        font-size: 20px;
+    .home .home-content .text-4{
+        font-size: 25px;
         margin: 5px 0;
     }
 
+    .home .home-content a{
+        display: inline-block;
+        background:#751d75;
+        color: rgb(10, 10, 10);
+        font-size: 25px;
+        padding: 12px 36px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid #751d75;
+    }
+    .home .home-content a:hover{
+        color:#751d75;
+        background: none;
+    }
+
+     /*  todos os codigos similares  */
+    section{
+        padding: 100px 0;
+    }
+    section .title{/* sobre*/
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    section .title::before{/*linha que fica entre o titulo do metaverso abaixo do sobre*/
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 180px;
+        height: 3px;
+        background: rgb(0, 0, 0);
+        transform: translateX(-50%);
+    }
+    section .title::after{/*titulo do metaverso abaixo do sobre*/
+        position: absolute;
+        bottom:-12px;
+        left: 50%;
+        font-size: 20px;
+        background: rgb(255, 255, 255);
+        color: #751d75;
+        padding: 5px;
+        transform: translateX(-50%);
+    }
+    .about, footer{
+        font-family: 'Roboto', sans-serif;
+    }
+    .about .about-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    /*  sessão sobre  */
+    .about .title::after{
+     content: "Metaverso";
+     
+    }
+
+    .about .about-content .left{
+        width: 55%;
+    }
+    .about .about-content .right{
+        width: 40%;/* lardura do texto explicando o metaverso*/
+        margin-right: 55px;
+        
+    }
     
+    .about .about-content .right .text{/*titulo Origem do Metaverso*/
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 10px;   
+    
+    }
+    .about .about-content .right p{
+        text-align: justify;
+    }
+   
+    .about .about-content .right a:hover{
+        color: #751d75;
+        background: none;
+    }
+    
+    .about .about-content .left img{/*imagem*/
+        width: 350px;
+        height: 390px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left:  200px;
+    }
+
+
+    /*  sessão footer  */
+    footer{
+        
+        height: 10%;
+        background: #5a075a;
+        padding: 20px ;
+        color: #fff;
+        text-align: center;
+    }
+    footer span a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    footer span a:hover{
+        text-decoration: underline;
+    }
+
     /*  responsivo  */
     @media (max-width: 1300px){
-        .navbar .max-width{
+        .nav .max-width{
             margin-left: 0;
         }
     }
@@ -100,7 +214,7 @@
         }
     }
     @media (max-width: 991px){
-        .navbar .max-width{
+        .nav .max-width{
             padding: 0 50px;
         }
     }
@@ -110,7 +224,7 @@
             padding: 0 50px;
         }
 
-        .navbar .menu{
+        .nav .menu{
             position: fixed;
             width: 100%;
             height: 100vh;
@@ -122,12 +236,12 @@
         
         }
         
-        .navbar .menu li a{
+        .nav .menu li a{
             display: inline-block;
             margin: 20px 0;
             font-size: 25px;
         }
-    
+
     @media (max-width: 690px){
         .home .text-2{
             font-size: 60px;
