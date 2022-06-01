@@ -1,29 +1,54 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.max-width{/*Posição da logo*/
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 /*  nav   inicio*/
-.nav {
-    /*position: absolute;*/
+.nav{
+    position: absolute;
     width: 100%;
-    padding: 30px 0;
+    padding: px 0px;
     font-family: 'Ubuntu', sans-serif;
     z-index: 999;
     
+}
+.nav .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .logo a{
+    color:#330F4F;
+    font-size: 35px;
+    font-weight: 500;
+    min-height: 10em;
 }
 .nav .menu li{
     list-style: none;
     display: inline-block;
 }
 .nav .menu li a{
-    color: #330F4F; /*cor das letrinhas do nav(inicio,sobre)*/
-    font-size: 18px;
-    font-weight:1000;
-    margin-left: 25px;
-    font-family: 'Dosis', sans-serif;
-    
+    font-size: 23px;
+    font-weight: 999;
+    margin-left: 40px;
+    font-family: 'Dosis', sans-serif, bold;
+    padding: -5px;
+  
+
 }
+
+/*Imagens*/
+
+
 
 
 /*  sessão footer  */
