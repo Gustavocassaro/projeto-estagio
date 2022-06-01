@@ -60,7 +60,7 @@
 
   
     .nav .menu li a:hover{/*cor das letrinhas do nav ao passar o mouse (inicio,sobre)*/
-        color:  #751d75; }
+        color:  #d443d4; }
 
     /*  Home   inicio  */
     .home{
@@ -110,7 +110,11 @@
     }
 
      /*  todos os codigos similares  */
-    section{
+    .column .rigth.h3 {
+        width: 800px;
+    }
+    
+     section{
         padding: 100px 0;
         
     }
