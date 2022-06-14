@@ -7,6 +7,11 @@
 html{
     scroll-behavior: smooth;
 }
+
+h3 {
+    font-family: 'Dosis', sans-serif;
+}
+
 .max-width{/*Posição da logo*/
     max-width: 1300px;
     padding: 0 80px;
@@ -14,11 +19,12 @@ html{
 }
 /*  nav   inicio*/
 .nav{
-    position: absolute;
+    position: relative;
     width: 100%;
-    padding: px 0px;
+    padding: 0px;
     font-family: 'Ubuntu', sans-serif;
     z-index: 999;
+    margin-bottom: 6em;
     
 }
 .nav .max-width{
@@ -45,12 +51,27 @@ html{
   
 
 }
+.conteudo {
+    font-size: 18px;
+    font-weight: 999;
+    margin-left: 40px;
+    font-family: 'Dosis', sans-serif;
+    padding: 6em;
+}
+.conteudo .sub {
+    position: absolute;
+    bottom: 100px ;
+    left: 50%;
+    font-size: 43px;
+    padding: 5px;
+    transform: translateX(-50%);
+    color: #330F4F;
+}
 
 /*Imagens*/
-.imagem{
-    width: 33.3%;
-    display: inline-block;
-    float: left;
+.imagem {
+    text-align: center;
+    
 }
 
 
