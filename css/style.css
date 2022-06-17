@@ -3,4 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}   
+
+
+.nav-custom{
+    background-color:transparent ;
+    
 }
+ #imagem{
+    display: flex;
+    background-image : url('../img/banner.jpg');
+    background-size: cover;
+    height: 102vh;
+    width: 1002vh;
+ }
