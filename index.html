@@ -14,58 +14,85 @@
   </head>
   <body>
     <!-- Navbar  -->
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark p-md-3">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-light fixed-top navbar-expand-sm">
+      <div id="container-fluid "class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a><!--logo-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="mx-auto"></div>
-          <ul class="navbar-nav">
-            <li class="item">
-              <a class="nav-link text-white" href="#">Início</a>
-            </li>
-            <li class="item">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"  aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="item">
+                <a class="nav-link text-white" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="item">
               <a class="nav-link text-white" href="#">Sobre</a>
-            </li>
-            <li class="item">
-              <a class="nav-link text-white" href="#">Investimento</a>
-            </li>
-            <li class="item">
-              <a class="nav-link text-white" href="#">Avatares</a>
-            </li>
-          </ul>
+              </li>
+              <li class="item">
+                <a class="nav-link text-white" href="#">Investimento</a>
+              </li>
+              <li class="item">
+                <a class="nav-link text-white" href="#">Avatares</a>
+              </li>
+                
+                  
+            </ul>
+          </div>  
         </div>
       </div>
     </nav>
-  
 
-   <!--home inicio-->
-   <section class="home" id="home">
-    <div class="max-width">
-        <div class="home-content">
-            <div class="text-1">A nova<br>Realidade</div>
-            <div class="text-2">A mais nova realidade virtual imersiva e interativa. </div>
+      <!--home inicio-->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content ">
+          <div class="text-1">A nova<br>Realidade</div>
+          <div class="text-2">A mais nova realidade virtual imersiva e interativa. </div>
 
         </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
+      </div>
+    </section> 
+    <div class="container-fluid">
+      <main class="cards">
+        <section class="card contact col-12 col-md-6 col-xl-4">
+          <h3>Interatividade</h3>
+            <div class="icon">
+                <img src="img/avatares-222.png" alt="interatividade">
+            </div>
+            <span>O usuário deve ser capaz de se comunicar com os demais usuários, assim como com o próprio metaverso. Dito de outra forma, deve possuir a capacidade de influir em objetos e usuários.</span>
+            
+        </section>
+        <section class="card shop col-12 col-md-6 col-xl-4">
+            <h3>Incorporiedade</h3>
+            <div class="icon">
+              <img src="img/avatares.jpg" alt="Incorporiedade">
+            </div>
+          <span>O metaverso elimina as barreiras físicas e o mais similar à corporeidade seria encontrado em elementos como nosso próprio avatar, que representaria nossa identidade.</span>
+            
+        </section>
+        <section class="card about col-12 col-md-6 col-xl-4">
+          <h3>Persistência</h3>
+            <div class="icon">
+                <img src="img/banner.jpg" alt="persistência">
+            </div>
+            <span>O metaverso irá se concretizando paulatinamente e convergirá na união de diferentes tecnologias relacionadas com a imersão virtual, de tal maneira que nesse contexto nossa vida usufruiria de continuidade.</span>
+          </section>
+        </main>
+      </div>
+    <!--sessão  footer-->
+    <footer>
+      <div class="logo" >
+          <img src="img/logo.png" alt="logo">
+      </div>
+      <span>Criado por <a>Copyright©metaverso.com</a></span>
+    </footer>
 
 
     <script src="js/script.js"></script>
-    
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
