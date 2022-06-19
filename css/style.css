@@ -107,7 +107,7 @@
 .retangulo{
     box-sizing: border-box;
     position: absolute;
-    top: 51em;
+    top: 55.5rem;
     width: 38em;
     height: 34em;
     left: 27em;
@@ -147,8 +147,8 @@
     background: linear-gradient(180deg, #dd136eb2 3.65%, #830796c9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: backInDown;
-    animation-duration: 1.5s;
+    animation: backInLeft;
+    animation-duration: 1.5s;  
 }
 /*CARDS*/
 main.cards section.card {
