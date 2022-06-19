@@ -17,8 +17,21 @@
     
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #860b86; /**ao passar por cima das letras(navbar)*/
+    color: #9e209e; /**ao passar por cima das letras(navbar)*/
     
+}
+.offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color:#4f1d76;
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform .3s ease-in-out;
 }
  /*  Home   inicio  */
  .home{
@@ -84,10 +97,10 @@
     background: none;
 }
 .about .about-content .left img{/*imagem*/
-    width: 15em;
-    height: 37.5em;
+    width: 19em;
+    height: 37em;
     object-fit: cover;
-    border-radius: 1em;
+    border-radius: 1.5em;
     margin-left: 12em;
 }
 /*retangulo branco*/
@@ -96,8 +109,8 @@
     position: absolute;
     top: 51em;
     width: 38em;
-    height: 35em;
-    left: 20em;
+    height: 34em;
+    left: 27em;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 20px;
