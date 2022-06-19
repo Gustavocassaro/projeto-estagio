@@ -147,8 +147,9 @@
     background: linear-gradient(180deg, #dd136eb2 3.65%, #830796c9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-    }
+    animation: backInDown;
+    animation-duration: 1.5s;
+}
 /*CARDS*/
 main.cards section.card {
     display: flex;
