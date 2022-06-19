@@ -2,27 +2,27 @@
 .navbar {
     position: absolute;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 
 }
-.navbar .item  {
-    font-size: 20px;/* tamanho das letras do navbar*/
-    font-weight: 2px;/*espessura das letras do navbar*/
-    background-position: 700px;
-    font-size: 22px;/* tamanho das letras do navbar*/
-    font-weight: 6px;/*espessura das letras do navbar*/
+ .navbar-nav .nav-link  {
     margin-left: 20px;/*espaço entre cada palavra do navbar*/
-    font-family: 'Dosis', sans-serif;
     letter-spacing: 2px;/*espaço entre cada letra do navbar*/
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: #0fbe9b; /*Cor da letra do navbar*/
+    color: #f6f6f6; /*Cor da letra do navbar*/
+    font-size: 22px;/* tamanho das letras do navbar*/
+    
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgba(202, 15, 15, 0.7);
+    color: #860b86; /**ao passar por cima das letras(navbar)*/
+    
+}
+.offcanvas-body  .nav-link {
+    color: #078fff;
+    font-size: 22px;
 }
 
  /*  Home   inicio  */
@@ -31,8 +31,8 @@
     display: flex;
     background-image : url('../img/banner.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    color: rgb(255, 255, 255);
     min-height: 400px;
     font-family: 'Kanit', sans-serif, bold;
 }
@@ -91,7 +91,7 @@ main.cards section.card .icon {
 }
 
 main.cards section.card img {
-    width: 100%;
+    width: 105%;
 }
 
 main.cards section.card h3 {
@@ -118,24 +118,18 @@ main.cards section.card button {
     margin-bottom: 16px 0;
 }
 
-main.cards section.card.contact button {
-    background: linear-gradient(to right, #9F66FF, #DFCBFF);
-}
-main.cards section.card.shop button {
-    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
-}
-main.cards section.card.about button {
-    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
-}
 
-main.cards section.card.contact {
-    box-shadow: 20px 20px 50px -30px #DBC4FF;
+
+
+main.cards section.card.interatividade
+ {
+    box-shadow: 20px 20px 50px -30px #682e8cec;
 }
-main.cards section.card.shop {
-    box-shadow: 20px 20px 50px -30px #AFD6FF;
+main.cards section.card.incorpo {
+    box-shadow: 20px 20px 50px -30px #025fc3ce;
 }
-main.cards section.card.about {
-    box-shadow: 20px 20px 50px -30px #FFC1D5;
+main.cards section.card.persis {
+    box-shadow: 20px 20px 50px -30px #de4e7cdf;
 }
 
 @media screen and (max-width: 720px) {
