@@ -84,26 +84,42 @@
     background: none;
 }
 .about .about-content .left img{/*imagem*/
-    width: 200px;
-    height: 39em;
+    width: 15em;
+    height: 37.5em;
     object-fit: cover;
-    border-radius: 2em;
-    margin-left: center;
+    border-radius: 1em;
+    margin-left: 12em;
 }
 /*retangulo branco*/
 .retangulo{
     box-sizing: border-box;
     position: absolute;
-    top: 48em;
-    width: 50em;
+    top: 51em;
+    width: 38em;
     height: 35em;
-    left: 12em;
+    left: 20em;
     background: #FFFFFF;
     border: 1px solid #000000;
-    border-radius: 43px;
- 
-
+    border-radius: 20px;
 }
+#origem{
+    font-weight: 40;
+   line-height: 40px;
+   text-align: center;
+   color: #040404;
+}
+#metaverso{
+    font-family: 'Dosis';
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+    background: linear-gradient(180deg, #BD1515 3.65%, #A615BD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 /* As três Características do Metaverso */
 .max-width .title{
     position: absolute;
