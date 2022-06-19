@@ -25,6 +25,7 @@
     font-size: 22px;
 }
 
+
  /*  Home   inicio  */
  .home{
 
@@ -123,13 +124,13 @@ main.cards section.card button {
 
 main.cards section.card.interatividade
  {
-    box-shadow: 20px 20px 50px -30px #682e8cec;
+    box-shadow: 20px 20px 50px -30px #5d1a87;
 }
 main.cards section.card.incorpo {
-    box-shadow: 20px 20px 50px -30px #025fc3ce;
+    box-shadow: 20px 20px 50px -30px #025fc3fd;
 }
 main.cards section.card.persis {
-    box-shadow: 20px 20px 50px -30px #de4e7cdf;
+    box-shadow: 20px 20px 50px -30px #de4e7c;
 }
 
 @media screen and (max-width: 720px) {
@@ -143,7 +144,7 @@ main.cards section.card.persis {
     }
 
     main.cards section.card:last-child {
-        margin-bottom: 0;
+        margin-bottom:0;
     }
 
     main.cards section.card button {
