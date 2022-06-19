@@ -20,12 +20,6 @@
     color: #860b86; /**ao passar por cima das letras(navbar)*/
     
 }
-.offcanvas-body  .nav-link {
-    color: #078fff;
-    font-size: 22px;
-}
-
-
  /*  Home   inicio  */
  .home{
 
@@ -66,16 +60,74 @@
     background: none;
 }
 
-/*CARDS*/
+/*  sessão metaverso  */
+.about .about-content .left{
+    width: 55%;
+}
+.about .about-content .right{
+    width: 40%;/* lardura do texto explicando o metaverso*/
+    margin-right: 55px;
+    padding: -9;
+    
+}
+.cards .card-intera .right .text{/*titulo Origem do Metaverso*/
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;   
 
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a:hover{
+    color: #751d75;
+    background: none;
+}
+.about .about-content .left img{/*imagem*/
+    width: 200px;
+    height: 39em;
+    object-fit: cover;
+    border-radius: 2em;
+    margin-left: center;
+}
+/*retangulo branco*/
+.retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    top: 48em;
+    width: 50em;
+    height: 35em;
+    left: 12em;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 43px;
+ 
+
+}
+/* As três Características do Metaverso */
+.max-width .title{
+    position: absolute;
+    width: 910px;
+    height: 71px;
+    left: 240px;
+    font-family: 'Dosis';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+    background: linear-gradient(180deg, #dd136eb2 3.65%, #830796c9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+/*CARDS*/
 main.cards section.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 1rem 1.5rem;
-    border-radius: 10px;
-    max-height: 46800px;
+    border-radius: 16px;
     margin-left: 50px;/*largura entre um card e outro*/
 }
 main.cards {
@@ -85,45 +137,24 @@ main.cards {
 main.cards section.card:first-child {
     margin-left: 0;
 }
-
 main.cards section.card .icon {
     width: 64px;
     height: 64px;
 }
-
 main.cards section.card img {
     width: 105%;
 }
-
 main.cards section.card h3 {
     font-size: 100%;
     margin: 16px 0;
 }
-
 main.cards section.card span {
     font-weight: 300;
     max-width: 240px;
-    font-size: 80%;
-    margin-bottom: 16px;
+    font-size: 90%;
+    margin-bottom: 20px;
 }
-
-main.cards section.card button {
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
-    cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: #fff;
-    margin-bottom: 16px 0;
-}
-
-
-
-
-main.cards section.card.interatividade
- {
+main.cards section.card.intera{ /*cor em volta dos cardes*/
     box-shadow: 20px 20px 50px -30px #5d1a87;
 }
 main.cards section.card.incorpo {
@@ -133,7 +164,7 @@ main.cards section.card.persis {
     box-shadow: 20px 20px 50px -30px #de4e7c;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {/*responsividade dos cards*/
     main.cards {
         flex-direction: column;
     }
@@ -152,7 +183,6 @@ main.cards section.card.persis {
     }
 
 }
-
     /*  sessão footer  */
     footer{
         
