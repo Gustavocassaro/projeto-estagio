@@ -37,7 +37,6 @@
 }
  /*  Home   inicio  */
 .home{
-
     display: flex;
     background-image : url('../img/banner.jpg');
     background-size: cover;
@@ -116,23 +115,23 @@
     background: none;
 }
 .about .about-content .left img{/*imagem*/
-    width: 19em;
-    height: 37em;
+    width: 12em;
+    height: 30em;
     object-fit: cover;
     border-radius: 1.5em;
-    margin-left: 12em;
+    margin-left: 19.2em;
 }
 /*retangulo branco*/
 .retangulo{
     box-sizing: border-box;
-    position: absolute;
-    top: 55.5rem;
     width: 38em;
     height: auto;
     left: 27em;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 20px;
+    position: absolute;
+    top: 970px;
 }
 #origem{
     font-weight: 100;
@@ -216,8 +215,29 @@ main.cards section.card.persis {
 }
 
 @media screen and (max-width: 720px) {/*responsividade dos cards*/
+    nav img {
+        width: 50%;
+    }
+    
+    .home .max-width {
+        margin: 50px 30px;
+    }
+
     .home {
         height: 10vh;
+    }
+
+    .home .home-content {
+        text-align: left;
+        margin-top: 25%;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 40px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 16px;
     }
 
     .about .about-content .left img{/*imagem*/
