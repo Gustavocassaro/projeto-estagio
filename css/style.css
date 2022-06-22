@@ -179,10 +179,10 @@ main.cards section.card {
     text-align: center;
     padding: 1rem 1.5rem;
     border-radius: 16px;
-    margin-left: 50px;/*largura entre um card e outro*/
 }
 main.cards {
     display: flex;
+    gap: 50px; /* LARGURA DE UM CARD E OUTRO (CERTO DESSA VEZ ANA JULIA JUMENTO) */
     padding: 190px;
 }
 main.cards section.card:first-child {
@@ -203,7 +203,7 @@ main.cards section.card span {
     font-weight: 300;
     max-width: 240px;
     font-size: 90%;
-    margin-bottom: 20px;
+    margin: 16px 0;
 }
 main.cards section.card.intera{ /*cor em volta dos cardes*/
     box-shadow: 20px 20px 50px -30px #5d1a87;
@@ -236,13 +236,13 @@ main.cards section.card.persis {
 }
     /*  sessão footer  */
     footer{
-        
         height: 10%;
         background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
         padding: 5em ;
         color: #fff;
         text-align: center;
     }
+
     footer span a{
         color: #ffffff;
         text-decoration: none;
