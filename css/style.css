@@ -44,6 +44,24 @@
     min-height: 400px;
     font-family: 'Kanit', sans-serif, bold;
 }
+.count2 {
+    text-align: left;
+    padding: 6em;
+    background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
+}
+.count2 .letra {
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Dosis';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+
+}
+.count2 .giphy-embed {
+    margin: 7em;
+    padding: 6em;
+}
 
 .home .max-width {
     margin: auto 0 auto 100px;
@@ -55,7 +73,6 @@
     font-size: 59px;
     font-weight: 500;
     margin-left: auto;
-    font-family: 'Kanit', sans-serif;
     color: white;
     font-weight: 500;
     padding: -5px;
