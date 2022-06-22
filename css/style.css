@@ -36,7 +36,7 @@
     transition: transform .3s ease-in-out;
 }
  /*  Home   inicio  */
- .home{
+.home{
 
     display: flex;
     background-image : url('../img/banner.jpg');
@@ -128,7 +128,7 @@
     position: absolute;
     top: 55.5rem;
     width: 38em;
-    height: 34em;
+    height: auto;
     left: 27em;
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -216,8 +216,35 @@ main.cards section.card.persis {
 }
 
 @media screen and (max-width: 720px) {/*responsividade dos cards*/
+    .home {
+        height: 10vh;
+    }
+
+    .about .about-content .left img{/*imagem*/
+        width: 75%;
+        height: 75%;
+        object-fit: cover;
+        border-radius: 1.5em;
+        margin-left: 20px;
+    }
+
+    #metaverso {
+        font-size: 50px;
+    }
+    
+    .retangulo {
+        left: 5em;
+        width: 75%;
+        height: auto;
+    }
+
+    #origem {
+        font-size: 14px;
+    }
+    
     main.cards {
         flex-direction: column;
+        padding: 20px;
     }
 
     main.cards section.card {
@@ -233,20 +260,29 @@ main.cards section.card.persis {
         font-size: 70%;
     }
 
-}
-    /*  sessão footer  */
-    footer{
-        height: 10%;
-        background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
-        padding: 5em ;
-        color: #fff;
-        text-align: center;
+    .count2 {
+        padding: 30px;
     }
 
-    footer span a{
-        color: #ffffff;
-        text-decoration: none;
+    .count2 .letra {
+        text-align: justify;
     }
-    footer span a:hover{
-        text-decoration: underline;
-    }
+
+}
+
+/*  sessão footer  */
+footer{
+    height: 10%;
+    background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
+    padding: 5em ;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
