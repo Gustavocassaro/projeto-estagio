@@ -234,8 +234,8 @@ main.cards section.card.persis {
     footer{
         
         height: 10%;
-        background: #330F4F;
-        padding: 20px ;
+        background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
+        padding: 5em ;
         color: #fff;
         text-align: center;
     }
