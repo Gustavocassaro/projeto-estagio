@@ -196,32 +196,10 @@ main.cards section.card.persis {
     box-shadow: 20px 20px 50px -30px #de4e7c;
 }
 
-.count2 {
-    text-align: left;
-    padding: 6em;
-    background: #330F4F;
-    
-}
-.count2 .letra {
-    font-weight: 100;
-    font-size: 25px;
-    font-family: 'Dosis';
-    color: rgb(255, 255, 255);
-    text-align: center;
-    
-
-}
-.count2 .giphy-embed {
-    margin: 6em;
-    padding: 6em;
-}
-.carousel-item{
-    width: 100px;
-}
 
 /*responsividade */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
     nav img {
         width: 55%;
     }
@@ -296,6 +274,7 @@ main.cards section.card.persis {
     .count2 .letra {
         text-align: justify;
     }
+    
 }
  
 
