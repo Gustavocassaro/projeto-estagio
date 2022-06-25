@@ -123,6 +123,7 @@
 }
 /*retangulo branco*/
 .retangulo{
+    
     box-sizing: border-box;
     width: 38em;
     height: auto;
@@ -131,7 +132,7 @@
     border: 1px solid #000000;
     border-radius: 20px;
     position: absolute;
-    top: 970px;
+    top: 955px;
 }
 #origem{
     font-weight: 100;
@@ -216,7 +217,7 @@ main.cards section.card.persis {
 
 @media screen and (max-width: 720px) {/*responsividade dos cards*/
     nav img {
-        width: 50%;
+        width: 55%;
     }
     
     .home .max-width {
@@ -224,7 +225,8 @@ main.cards section.card.persis {
     }
 
     .home {
-        height: 10vh;
+        height: 20vh;
+       
     }
 
     .home .home-content {
@@ -292,13 +294,13 @@ main.cards section.card.persis {
 
 /*  sessão footer  */
 footer{
+        
     height: 10%;
-    background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
-    padding: 5em ;
+    background: #330F4F;
+    padding: 20px ;
     color: #fff;
     text-align: center;
 }
-
 footer span a{
     color: #ffffff;
     text-decoration: none;
