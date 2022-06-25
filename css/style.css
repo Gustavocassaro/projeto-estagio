@@ -45,25 +45,6 @@
     min-height: 400px;
     font-family: 'Kanit', sans-serif, bold;
 }
-.count2 {
-    text-align: left;
-    padding: 6em;
-    background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
-}
-.count2 .letra {
-    font-weight: 100;
-    font-size: 25px;
-    font-family: 'Dosis';
-    color: rgb(255, 255, 255);
-    text-align: center;
-    
-
-}
-.count2 .giphy-embed {
-    margin: 6em;
-    padding: 6em;
-}
-
 .home .max-width {
     margin: auto 0 auto 100px;
   /*Cor e tamanho das letras do titulo da img principal  */
@@ -80,7 +61,6 @@
     font-family: 'Kanit', sans-serif;
     
 }
-
 .home .home-content .text-2 {
     font-size: 25px;
     margin: 3px 0px;
@@ -116,10 +96,11 @@
 }
 .about .about-content .left img{/*imagem*/
     width: 12em;
-    height: 30em;
+    height: 35em;
     object-fit: cover;
     border-radius: 1.5em;
     margin-left: 19.2em;
+    margin: 30%;
 }
 /*retangulo branco*/
 .retangulo{
@@ -215,7 +196,32 @@ main.cards section.card.persis {
     box-shadow: 20px 20px 50px -30px #de4e7c;
 }
 
-@media screen and (max-width: 720px) {/*responsividade dos cards*/
+.count2 {
+    text-align: left;
+    padding: 6em;
+    background: #330F4F;
+    
+}
+.count2 .letra {
+    font-weight: 100;
+    font-size: 25px;
+    font-family: 'Dosis';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+
+}
+.count2 .giphy-embed {
+    margin: 6em;
+    padding: 6em;
+}
+.carousel-item{
+    width: 100px;
+}
+
+/*responsividade */
+
+@media screen and (max-width: 720px) {
     nav img {
         width: 55%;
     }
@@ -258,6 +264,7 @@ main.cards section.card.persis {
         left: 5em;
         width: 75%;
         height: auto;
+        top:33em;
     }
 
     #origem {
@@ -289,8 +296,8 @@ main.cards section.card.persis {
     .count2 .letra {
         text-align: justify;
     }
-
 }
+ 
 
 /*  sessão footer  */
 footer{
