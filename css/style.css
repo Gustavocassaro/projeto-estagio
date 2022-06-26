@@ -35,6 +35,10 @@
     outline: 0;
     transition: transform .3s ease-in-out;
 }
+.navbar-light .navbar-toggler {
+    color: rgb(234, 233, 233);
+    border-color: rgb(251 251 251);
+}
  /*  Home   inicio  */
 .home{
     display: flex;
@@ -96,7 +100,7 @@
 }
 .about .about-content .left img{/*imagem*/
     width: 12em;
-    height: 35em;
+    height: 30em;
     object-fit: cover;
     border-radius: 1.5em;
     margin-left: 19.2em;
@@ -106,14 +110,14 @@
 .retangulo{
     
     box-sizing: border-box;
-    width: 38em;
+    width: 40em;
     height: auto;
-    left: 27em;
+    left: 24em;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 20px;
     position: absolute;
-    top: 955px;
+    top:955px;
 }
 #origem{
     font-weight: 100;
@@ -197,13 +201,18 @@ main.cards section.card.persis {
 }
 
 /*carrossel*/
+.w-100 {
+    width: 58%!important;
+    margin-left: 19rem;
+}
 .count2 {
     text-align: left;
     padding: 6em;
-    background: #330F4F;
+    background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
+
 }
 .count2 .letra {
-    font-size: 25.5px;
+    font-size: 30px;
     font-family: 'Dosis';
     color: rgb(255, 255, 255);
     text-align: center;
@@ -215,7 +224,7 @@ main.cards section.card.persis {
 }
 /*responsividade */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
     nav img {
         width: 55%;
     }
@@ -290,17 +299,19 @@ main.cards section.card.persis {
 
     .count2 .letra {
         text-align: justify;
+        font-size: 20px;
     }
-    
+    .w-100{
+        width: 50% !important;
+        margin-left:25%;
+    }
 }
  
 
 /*  sessão footer  */
 footer{
-        
     height: 10%;
-    background: #330F4F;
-    padding: 20px ;
+    background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);    padding: 20px ;
     color: #fff;
     text-align: center;
 }
@@ -314,16 +325,35 @@ footer span a:hover{
 
 /* Página Investimentos*/
 
-.navbar-investimentos .navbar-nav .nav{
-    color: #b00577; /*Cor da letra do navbar*/
-    font-size: 22px;/* tamanho das letras do navbar*/
-    font-weight: 700;
-    font-family: 'Dosis';
-    
+.navbar-brand{ /*Posição da logo*/
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
-.logo a{
-    color:#330F4F;
-    font-size: 35px;
-    font-weight: 500;
-    min-height: 10em;
+
+.nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
+ .navbar .navbar-pags .nav-lista   {
+   color: #4f1d76;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
