@@ -196,7 +196,23 @@ main.cards section.card.persis {
     box-shadow: 20px 20px 50px -30px #de4e7c;
 }
 
+/*carrossel*/
+.count2 {
+    text-align: left;
+    padding: 6em;
+    background: #330F4F;
+}
+.count2 .letra {
+    font-size: 25.5px;
+    font-family: 'Dosis';
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
 
+.count2 .giphy-embed {
+    margin: 7em;
+    padding: 6em;
+}
 /*responsividade */
 
 @media screen and (max-width: 700px) {
@@ -205,6 +221,7 @@ main.cards section.card.persis {
     }
     
     .home .max-width {
+ 
         margin: 50px 30px;
     }
 
@@ -293,4 +310,20 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+}
+
+/* Página Investimentos*/
+
+.navbar-investimentos .navbar-nav .nav{
+    color: #b00577; /*Cor da letra do navbar*/
+    font-size: 22px;/* tamanho das letras do navbar*/
+    font-weight: 700;
+    font-family: 'Dosis';
+    
+}
+.logo a{
+    color:#330F4F;
+    font-size: 35px;
+    font-weight: 500;
+    min-height: 10em;
 }
