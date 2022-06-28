@@ -54,7 +54,7 @@
   /*Cor e tamanho das letras do titulo da img principal  */
 }
 
-.home .home-content .text-1 {
+.home .home-content .text-1 {/*Titulo 1 do background*/
     letter-spacing: 0px;
     font-size: 59px;
     font-weight: 500;
@@ -65,7 +65,7 @@
     font-family: 'Kanit', sans-serif;
     
 }
-.home .home-content .text-2 {
+.home .home-content .text-2 {/*Titulo 2 do background*/
     font-size: 25px;
     margin: 3px 0px;
     color:#ffffff;
@@ -75,30 +75,9 @@
     background: none;
 }
 
-/*  sessão metaverso  */
-.about .about-content .left{
-    width: 55%;
-}
-.about .about-content .right{
-    width: 40%;/* lardura do texto explicando o metaverso*/
-    margin-right: 55px;
-    padding: -9;
-    
-}
-.cards .card-intera .right .text{/*titulo Origem do Metaverso*/
-    font-size: 25px;
-    font-weight: 500;
-    margin-bottom: 10px;   
+/*  imagem  do lado do retanglo */
 
-}
-.about .about-content .right p{
-    text-align: justify;
-}
-.about .about-content .right a:hover{
-    color: #751d75;
-    background: none;
-}
-.about .about-content .left img{/*imagem*/
+.img-fluid{
     width: 12em;
     height: 30em;
     object-fit: cover;
@@ -106,19 +85,18 @@
     margin-left: 19.2em;
     margin: 30%;
 }
+
 /*retangulo branco*/
 .retangulo{
     
     box-sizing: border-box;
-    width: 40em;
-    height: auto;
-    left: 24em;
+    width: 40em;   
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 20px;
-    position: absolute;
-    top:955px;
+  
 }
+
 #origem{
     font-weight: 100;
     font-size: 25px;
@@ -137,6 +115,11 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+}
+
+#resumo{
+    padding: 5em;
+ 
 }
 
 /* As três Características do Metaverso */
@@ -222,6 +205,7 @@ main.cards section.card.persis {
     margin: 7em;
     padding: 6em;
 }
+
 /*responsividade */
 
 @media screen and (max-width: 720px) {
@@ -261,14 +245,14 @@ main.cards section.card.persis {
     }
 
     #metaverso {
-        font-size: 50px;
+        font-size: 2em;
     }
     
     .retangulo {
         left: 5em;
         width: 75%;
         height: auto;
-        top:33em;
+        top:3em;
     }
 
     #origem {
