@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logorox.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    
+    <style>
+        
+        body {
+            font-family: "Dosis";
+            
+            background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567) ;
+        }
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(255, 255, 255, 0.247);
+            padding: 15px;
+            border-radius: 15px;
+            width: 25em;
+            
+        }
+        fieldset {
+            
+            border-radius: 15px;
+            color: white;
+        }
+        legend {
+            
+            padding: 10px;
+            text-align: center;
+            background-color: #350F34;
+            border-radius: 10px;
+            color: white;
+        }
+        .inputbox {
+            position: relative;
+        }
+        .inputuser {
+            background: none;
+            border: none;
+            border-bottom: 1px solid rgb(255, 255, 255);
+            outline: none;
+            font-size: 15px;
+            width: 100%;
+            color: white;
+        
+        }
+        .labelinput {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .inputuser:focus ~ .labelinput,
+        .inputuser:valid ~ .labelinput {
+            top: -20px;
+            font-size: 13px;
+        }
+        #data_nasc{
+            border: none;
+            border-radius: 10px;
+            padding: 8px;
+            outline: none;
+            font-size: 15px;
+        }
+        #botao {
+            background-color: #350F34;
+            border: none;
+            width: 100%;
+            padding: 15px;
+            font-size: 19px;
+            cursor: pointer;
+            color: white;
+            font-family: "Dosis";
+            border-radius: 10px;
+        }
+    </style>
+    <title>Cadastrar</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de Cadastro</b></legend>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="nome" id="nome" class="inputuser" required>
+                    <label for="nome" class="labelinput">Nome Completo</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="email" id="email" class="inputuser" required>
+                    <label for="email" class="labelinput">E-mail</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="tel" name="tel" id="telefone" class="inputuser" required>
+                    <label for="telefone" class="labelinput">Telefone</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="number" name="cpf" id="cpf" class="inputuser" required>
+                    <label for="cpf" class="labelinput">CPF</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="password" name="senha" id="senha" class="inputuser" required>
+                    <label for="senha" class="labelinput">Senha</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="password" name="confirma_senha" id="confirma_senha" class="inputuser" required>
+                    <label for="confirma_senha" class="labelinput">Confirmar Senha</label>
+                </div>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino"required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino"required>
+                <label for="feminino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro"required>
+                <label for="feminino">outro</label>
+                <br>
+                
+                <label for="data_nasc">Data de Nascimento:</label>
+                <input type="date" name="data_nasc" id="data_nasc" required>
+                
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="cidade" id="cidade" class="inputuser" required>
+                    <label for="cidade" class="labelinput">Cidade</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="tex]" name="estado" id="estado" class="inputuser" required>
+                    <label for="estado" class="labelinput">Estado</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="cep" id="cep" class="inputuser" required>
+                    <label for="cep" class="labelinput">CEP</label>
+                </div>
+                <br>      
+                <button type="button" class="btn btn-light" id="botao">Entrar</button> 
+                
+            </fieldset>
+        </form>
+
+    </div>
+    
+</body>
+</html>
