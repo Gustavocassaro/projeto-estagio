@@ -18,8 +18,11 @@
     font-family: 'Dosis';
     
 }
+.navbar .container .logo1 {
+    padding-left: 1em;
+}
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #9e209e; /**ao passar por cima das letras(navbar)*/
+    color: #994499; /**ao passar por cima das letras(navbar)*/
     
 }
 .offcanvas {
@@ -78,8 +81,8 @@
 /*  imagem  do lado do retanglo */
 
 .img-fluid{
-    width: 12em;
-    height: 30em;
+    width: 16em;
+    height: 35em;
     object-fit: cover;
     border-radius: 1.5em;
     margin-left: 19.2em;
@@ -88,13 +91,13 @@
 
 /*retangulo branco*/
 .retangulo{
-    
+    margin: 15px;
     box-sizing: border-box;
-    width: 40em;   
+    width: 41em;   
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 20px;
-  
+    
 }
 
 #origem{
@@ -103,7 +106,7 @@
     font-family: 'Dosis';
     text-align: center;
     color: #040404;
-    padding: 1em;
+    padding: 2em;
 }
 #metaverso{
     font-family: 'Dosis';
@@ -186,7 +189,7 @@ main.cards section.card.persis {
 /*carrossel*/
 .w-100 {
     width: 58%!important;
-    margin-left: 19rem;
+    margin:auto;
 }
 .count2 {
     text-align: left;
@@ -247,10 +250,20 @@ main.cards section.card.persis {
     #metaverso {
         font-size: 2em;
     }
+    .img-fluid{
+        width: 16em;
+        height: 27em;
+        object-fit: cover;
+        border-radius: 1.5em;
+        margin-left: 19.2em;
+        margin: -30px ;
+    }
     
     .retangulo {
-        left: 5em;
-        width: 75%;
+        margin: -90px ;
+        padding: 0.2em;
+        left: 7em;
+        width: 180%;
         height: auto;
         top:3em;
     }
@@ -286,8 +299,8 @@ main.cards section.card.persis {
         font-size: 20px;
     }
     .w-100{
-        width: 50% !important;
-        margin-left:25%;
+        width: 75% !important;
+        margin: auto;
     }
 }
  
@@ -306,10 +319,14 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+.logo {
+    
+}
 
 /* Página Investimentos*/
 
-.navbar-brand{ /*Posição da logo*/
+/*
+.navbar-brand{ /*Posição da logo
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
@@ -324,7 +341,8 @@ footer span a:hover{
 }
  .navbar .navbar-pags .nav-lista   {
    color: #4f1d76;
-}
+} 
+*/
 
 
 

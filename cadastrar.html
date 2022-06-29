@@ -13,7 +13,7 @@
         
         body {
             font-family: "Dosis";
-            
+            font-weight: 300;
             background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567) ;
         }
         .box{
@@ -21,7 +21,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            background-color: rgba(255, 255, 255, 0.247);
+            background-color: rgb(255, 255, 255);
             padding: 15px;
             border-radius: 15px;
             width: 25em;
@@ -30,7 +30,7 @@
         fieldset {
             
             border-radius: 15px;
-            color: white;
+            color: rgb(0, 0, 0);
         }
         legend {
             
@@ -46,11 +46,11 @@
         .inputuser {
             background: none;
             border: none;
-            border-bottom: 1px solid rgb(255, 255, 255);
+            border-bottom: 1px solid rgb(0, 0, 0);
             outline: none;
             font-size: 15px;
             width: 100%;
-            color: white;
+            color: rgb(0, 0, 0);
         
         }
         .labelinput {
@@ -59,6 +59,7 @@
             left: 0px;
             pointer-events: none;
             transition: .5s;
+            color: black;
         }
         .inputuser:focus ~ .labelinput,
         .inputuser:valid ~ .labelinput {
@@ -103,8 +104,8 @@
                 </div>
                 <br>
                 <div class="inputbox">
-                    <input type="tel" name="tel" id="telefone" class="inputuser" required>
-                    <label for="telefone" class="labelinput">Telefone</label>
+                    <input type="tel" name="telefonee" id="telefone" class="inputuser" maxlength="14" onkeypress="masc_tel(this)" onkeydown=" return somente_numero(event)" required>
+                    <label for="telefone" class="labelinput" >Telefone</label>
                 </div>
                 <br>
                 <div class="inputbox">
@@ -120,8 +121,7 @@
                 <div class="inputbox">
                     <input type="password" name="confirma_senha" id="confirma_senha" class="inputuser" required>
                     <label for="confirma_senha" class="labelinput">Confirmar Senha</label>
-                </div>
-                <br>
+                </div>              
                 <p>Sexo:</p>
                 <input type="radio" id="feminino" name="genero" value="feminino"required>
                 <label for="feminino">Feminino</label>
@@ -135,7 +135,7 @@
                 
                 <label for="data_nasc">Data de Nascimento:</label>
                 <input type="date" name="data_nasc" id="data_nasc" required>
-                
+                <br>
                 <br>
                 <div class="inputbox">
                     <input type="text" name="cidade" id="cidade" class="inputuser" required>
