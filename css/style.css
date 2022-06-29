@@ -150,6 +150,7 @@ main.cards section.card {
     text-align: center;
     padding: 1rem 1.5rem;
     border-radius: 16px;
+    cursor: pointer;
 }
 main.cards {
     display: flex;
