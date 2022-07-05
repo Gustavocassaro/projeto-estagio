@@ -128,14 +128,13 @@
 /* As três Características do Metaverso */
 .max-width .title{
     position: absolute;
-    width: 910px;
-    height: 71px;
-    left: 240px;
+    width: 15em;
+    height: 3em;
+    text-align: center;
     font-family: 'Dosis';
     font-weight: 400;
-    font-size: 64px;
-    line-height: 81px;
-    text-align: center;
+    font-size: 4em;
+    left: 2.5em;
     background: linear-gradient(180deg, #dd136eb2 3.65%, #830796c9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -149,7 +148,7 @@ main.cards section.card {
     align-items: center;
     text-align: center;
     padding: 1rem 1.5rem;
-    border-radius: 16px;
+    border-radius: 1em;
     cursor: pointer;
 }
 main.cards {
