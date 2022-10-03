@@ -6,8 +6,8 @@
     justify-content: space-between;
 
 }
- .navbar-nav .nav-link  {
-    margin-left: 20px;/*espaço entre cada palavra do navbar*/
+.navbar-nav .nav-link  {
+    margin-left: 20px;/*espaço entre cada PPalavra do navbar*/
     letter-spacing: 2px;/*espaço entre cada letra do navbar*/
 }
 
@@ -25,6 +25,35 @@
     color: #994499; /**ao passar por cima das letras(navbar)*/
     
 }
+/* pagina investimentos */
+.navbar8 {
+    position: absolute;
+    display: flex;
+    background-color: #4f1d76;
+    
+}
+.navbar-nav .nav-linkinv  {
+    margin-left: 20px;/*espaço entre cada palavra do navbar*/
+    letter-spacing: 2px;/*espaço entre cada letra do navbar*/
+}
+
+.navbar-light .navbar-nav .nav-linkinv{
+    color: #ffffff; /*Cor da letra do navbar*/
+    font-size: 22px;/* tamanho das letras do navbar*/
+    font-weight: 700;
+    font-family: 'Dosis';
+    
+}
+.navbar .container .logo1 {
+    padding-left: 1em;
+}
+.navbar-light .navbar-nav .nav-linkinv:hover {
+    color: #c55bdf; /**ao passar por cima das letras(navbar)*/
+    
+}
+
+
+
 .offcanvas {
     position: fixed;
     bottom: 0;
@@ -343,7 +372,9 @@ footer span a:hover{
    color: #4f1d76;
 } 
 */
-
+.options {
+    color: #350F34;
+}
 
 
 
