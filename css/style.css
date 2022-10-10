@@ -29,7 +29,6 @@
 .navbar8 {
     position: absolute;
     display: flex;
-    background-color: #4f1d76;
     
 }
 .navbar-nav .nav-linkinv  {
@@ -155,11 +154,14 @@
 }
 
 /* As três Características do Metaverso */
-.max-width .title{
-    position: absolute;
-    width: 15em;
+.minha-classe{
+   /* position: absolute;*/
+    width: 1000px;
     height: 3em;
-    text-align: center;
+    margin: auto;
+    padding-left: 70px;
+}
+.title {
     font-family: 'Dosis';
     font-weight: 400;
     font-size: 4em;
@@ -169,7 +171,30 @@
     -webkit-text-fill-color: transparent;
     animation: backInLeft;
     animation-duration: 1.5s;  
+    
 }
+
+@media only screen and (max-width: 850px) {
+    .minha-classe{
+        /* position: absolute;*/
+         width: 400px;
+         height: 1em;
+         margin: auto;
+         padding-left: 20px;
+     }
+    .title {
+        font-family: 'Dosis';
+        font-weight: 300;
+        font-size: 1.5em;
+        left: 2em;
+        background: linear-gradient(180deg, #dd136eb2 3.65%, #830796c9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: backInLeft;
+        animation-duration: 1.5s;  
+        
+    }
+  }
 /*CARDS*/
 main.cards section.card {
     display: flex;
