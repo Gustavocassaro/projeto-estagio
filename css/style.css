@@ -25,7 +25,31 @@
     color: #610661; /**ao passar por cima das letras(navbar)*/
     
 }
+/* pagina investimentos */
+.navbar8 {
+    position: absolute;
+    display: flex;
+    
+}
+.navbar-nav .nav-linkinv  {
+    margin-left: 20px;/*espaço entre cada palavra do navbar*/
+    letter-spacing: 2px;/*espaço entre cada letra do navbar*/
+}
 
+.navbar-light .navbar-nav .nav-linkinv{
+    color: #ffffff; /*Cor da letra do navbar*/
+    font-size: 22px;/* tamanho das letras do navbar*/
+    font-weight: 700;
+    font-family: 'Dosis';
+    
+}
+.navbar .container .logo1 {
+    padding-left: 1em;
+}
+.navbar-light .navbar-nav .nav-linkinv:hover {
+    color: #c55bdf; /**ao passar por cima das letras(navbar)*/
+    
+}
 .offcanvas {
     position: fixed;
     bottom: 0;
@@ -129,9 +153,21 @@
     margin:-9em
 }
 
+
 /* As três Características do Metaverso titulo */
 .text-center .title{
     margin:0;
+   position: absolute;
+    width: 1000px;
+    height: 3em;
+    margin: auto;
+    padding-left: 70px;
+}
+.title {
+    font-family: 'Dosis';
+    font-weight: 400;
+    font-size: 4em;
+    left: 2.5em;
     background: linear-gradient(180deg, #dd136eb2 3.65%, #830796c9 100%);
     font-family: 'Dosis';
     font-size: 2.2em;
@@ -139,7 +175,30 @@
     -webkit-text-fill-color: transparent;
     animation: backInLeft;
     animation-duration: 1.5s;  
+    
 }
+
+@media only screen and (max-width: 850px) {
+    .minha-classe{
+        /* position: absolute;*/
+         width: 400px;
+         height: 1em;
+         margin: auto;
+         padding-left: 20px;
+     }
+    .title {
+        font-family: 'Dosis';
+        font-weight: 300;
+        font-size: 1.5em;
+        left: 2em;
+        background: linear-gradient(180deg, #dd136eb2 3.65%, #830796c9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: backInLeft;
+        animation-duration: 1.5s;  
+        
+    }
+  }
 /*CARDS*/
 main.cards section.card {
     display: flex;
