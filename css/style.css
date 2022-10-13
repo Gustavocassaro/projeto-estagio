@@ -25,31 +25,7 @@
     color: #610661; /**ao passar por cima das letras(navbar)*/
     
 }
-/* pagina investimentos */
-.navbar8 {
-    position: absolute;
-    display: flex;
-    
-}
-.navbar-nav .nav-linkinv  {
-    margin-left: 20px;/*espaço entre cada palavra do navbar*/
-    letter-spacing: 2px;/*espaço entre cada letra do navbar*/
-}
 
-.navbar-light .navbar-nav .nav-linkinv{
-    color: #ffffff; /*Cor da letra do navbar*/
-    font-size: 22px;/* tamanho das letras do navbar*/
-    font-weight: 700;
-    font-family: 'Dosis';
-    
-}
-.navbar .container .logo1 {
-    padding-left: 1em;
-}
-.navbar-light .navbar-nav .nav-linkinv:hover {
-    color: #c55bdf; /**ao passar por cima das letras(navbar)*/
-    
-}
 .offcanvas {
     position: fixed;
     bottom: 0;
@@ -177,6 +153,8 @@
     animation-duration: 1.5s;  
     
 }
+/* pagina investimentos */
+
 
 @media only screen and (max-width: 850px) {
     .minha-classe{
@@ -253,7 +231,8 @@ main.cards section.card.persis {
 .count2 {
     text-align: left;
     padding: 6em;
-    background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);
+    background-color: #330F4F;
+ 
 
 }
 .count2 .letra {
@@ -271,7 +250,8 @@ main.cards section.card.persis {
 /*  sessão footer  */
 footer{
     height: 10%;
-    background-image: linear-gradient(to right, #350F34,#4A2257,#643579,#1754A5,#101567);    padding: 20px ;
+    background-color:#330F4F;   
+     padding: 20px ;
     color: #fff;
     text-align: center;
 }
@@ -288,35 +268,6 @@ footer span a:hover{
 
 
 /* pagina investimentos */
-.navbar-light .navbar-nav .nav-link {
-
-    
-.navbar8 {
-    position: absolute;
-    display: flex;
-    background-color: #4f1d76;
-    
-}
-.navbar-nav .nav-linkinv  {
-    margin-left: 20px;/*espaço entre cada palavra do navbar*/
-    letter-spacing: 2px;/*espaço entre cada letra do navbar*/
-}
-
-.navbar-light .navbar-nav .nav-linkinv{
-    color: #ffffff; /*Cor da letra do navbar*/
-    font-size: 22px;/* tamanho das letras do navbar*/
-    font-weight: 700;
-    font-family: 'Dosis';
-    
-}
-.navbar .container .logo1 {
-    padding-left: 1em;
-}
-.navbar-light .navbar-nav .nav-linkinv:hover {
-    color: #c55bdf; /**ao passar por cima das letras(navbar)*/
-    
-}
-
 
 
 /*responsividade pagina inicial */
@@ -367,9 +318,9 @@ footer span a:hover{
     #metaverso{
         margin: -0.2em;
     }
-    .max-width .title{
+    .text-center.title{
         margin-top: 3em;
-        margin-left: -4em;
+        margin-left: -10em;
         width: 8em;
         height: 2em;
         top: 10em;
