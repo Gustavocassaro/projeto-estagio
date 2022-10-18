@@ -47,7 +47,6 @@
 
  /**  parte da imagem**/
 .img-fluid { 
-  
     position: static;
     margin-top: 6em;
 }
@@ -59,11 +58,19 @@
     font-size: 2.2em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 2em; 
+    margin: -1em; 
+    font-size: 3em;
 }
+.titulo-1{
+    margin: 2.5em;
+    font-family: 'Dosis';
+    font-weight: 500;
+}
+
 .titulo-2{
     font-weight: 300;
     font-family: 'Dosis';
+    margin: 1em;  
 }
 .titulo-3{
     font-family: 'Dosis';
@@ -76,6 +83,33 @@
     text-align: left!important;
     margin-top: 25em;
 }
+
+.text .img-fluid{
+    margin: 0;
+}
+
+.titul-1{
+    margin: 2.5em;
+    font-family: 'Dosis';
+    font-weight: 500;
+}
+
+
+
+/*  pagina avateres */
+.ava1{
+    font-family: 'Dosis';
+    background: linear-gradient(180deg, #4d0f43 0%, #B23DC6 78.65%);
+    font-family: 'Dosis';
+    font-size: 2.2em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3em; 
+    font-size: 3em;
+    margin: 3em;
+}
+
+
 
 
 
@@ -97,6 +131,8 @@ footer span a:hover{
 .navbar .container .logo1 {
     margin-left: -3em;
 }
+
+ /*Responsividade*/
 
 @media screen and (max-width: 720px) /*celular*/ {
     .titulo-3{
