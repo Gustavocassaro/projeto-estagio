@@ -4,25 +4,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    margin-right: 6em;
+    margin-top: 3em;
 }
+
 .navbar-nav .nav-link  {
     margin-left: 20px;/*espaço entre cada palavra do navbar*/
     letter-spacing: 2px;/*espaço entre cada letra do navbar*/
+  
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: #f6f6f6; /*Cor da letra do navbar*/
+    color: #f5f5f5; /*Cor da letra do navbar*/
     font-size: 22px;/* tamanho das letras do navbar*/
     font-weight: 700;
     font-family: 'Dosis';
     
+    
 }
 .navbar .container .logo1 {
-    padding-left: 1em;
+    padding-left: 3em;
+    
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #610661; /**ao passar por cima das letras(navbar)*/
+    color: #1e0431; /**ao passar por cima das letras(navbar)*/
     
 }
 
@@ -39,11 +44,10 @@
     outline: 0;
     transition: transform .3s ease-in-out;
 }
+
 .navbar-light .navbar-toggler {
     border-color: rgb(4, 4, 4);
 }
-
-
 
  /*  Home   inicio  */
 .home{
@@ -131,14 +135,7 @@
 
 
 /* As três Características do Metaverso titulo */
-.text-center .title{
-    margin:0;
-   position: absolute;
-    width: 1000px;
-    height: 3em;
-    margin: auto;
-    padding-left: 70px;
-}
+
 .title {
     font-family: 'Dosis';
     font-weight: 400;
@@ -153,30 +150,7 @@
     animation-duration: 1.5s;  
     
 }
-/* pagina investimentos */
 
-
-@media only screen and (max-width: 850px) {
-    .minha-classe{
-        /* position: absolute;*/
-         width: 400px;
-         height: 1em;
-         margin: auto;
-         padding-left: 20px;
-     }
-    .title {
-        font-family: 'Dosis';
-        font-weight: 300;
-        font-size: 1.5em;
-        left: 2em;
-        background: linear-gradient(180deg, #dd136eb2 3.65%, #830796c9 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: backInLeft;
-        animation-duration: 1.5s;  
-        
-    }
-  }
 /*CARDS*/
 main.cards section.card {
     display: flex;
@@ -266,21 +240,18 @@ footer span a:hover{
     margin-left: -3em;
 }
 
-
-/* pagina investimentos */
-
-
 /*responsividade pagina inicial */
 
 @media screen and (max-width: 720px) /*celular*/ {
     .navbar .container .logo1{
-      width: 4em;
+      width: 7em;
       height: 3em;
-      margin: 0;
+      margin-top: -3em;
     }
     nav img {
         width: 40%;
     }
+   
     .home .max-width {
         margin: 50px 30px;
     }
@@ -352,6 +323,9 @@ footer span a:hover{
         width: 75% !important;
         margin: auto;
     }
+    .options {
+        color: #350F34;
+    }
 }
 
  
@@ -375,9 +349,7 @@ footer span a:hover{
    color: #4f1d76;
 } 
 */
-.options {
-    color: #350F34;
-}
+
 
 
 
