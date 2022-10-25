@@ -69,8 +69,11 @@
 
 .titulo-2{
     font-weight: 300;
+    margin: 1.2em;  
     font-family: 'Dosis';
-    margin: 1em;  
+    height: 4em;
+    width: 26em;
+    margin-left: 3.5em;
 }
 .titulo-3{
     font-family: 'Dosis';
@@ -92,9 +95,28 @@
     margin: 2.5em;
     font-family: 'Dosis';
     font-weight: 500;
+    margin: 8em;
 }
 
 
+.textoo{
+  font-weight: 300;
+  margin: -6em;  
+  font-family: 'Dosis';
+  height: 4em;
+  width: 26em;
+  margin-left: 3.5em;
+
+}
+.texto{
+    font-weight: 300;
+    margin: 10em;  
+    font-family: 'Dosis';
+    height: 4em;
+    width: 26em;
+    margin-left: 3.5em;
+  
+  }
 
 /*  pagina avateres */
 .ava1{
@@ -108,6 +130,9 @@
     font-size: 3em;
     margin: 3em;
 }
+.text-avat{
+    font-family: 'Dosis';
+}
 
 
 
@@ -115,11 +140,13 @@
 
 /*  sessão footer  */
 footer{
-    height: 10%;
-    background-color:#330F4F;   
-     padding: 20px ;
-    color: #fff;
-    text-align: center;
+ height: 10%;
+ background-color:#330F4F;   
+ padding: 20px ;
+ color: #fff;
+ text-align: center;
+
+     
 }
 footer span a{
     color: #ffffff;
@@ -134,14 +161,14 @@ footer span a:hover{
 
  /*Responsividade*/
 
-@media screen and (max-width: 720px) /*celular*/ {
+@media screen and (max-width: 320px) /*celular*/ {
     .titulo-3{
         width: 15em;
         margin-left: 1em;
         margin: 1em;
     }
     .navbar-light .navbar-toggler{
-        margin-left: 11em;
+        margin-left: 100px;
     }
 
     .img{
