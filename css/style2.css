@@ -1,4 +1,7 @@
 /* pagina investimentos */
+
+
+/*Começo do NAVBAR */
 .navbar {
     position: absolute;
     align-items: center;
@@ -44,60 +47,75 @@
     transition: transform .3s ease-in-out;
 }
 
+/*FINAL DO NAVBAR */
 
- /**  parte da imagem**/
+
+ /**parte da imagem**/
 .img-fluid { 
     position: static;
     margin-top: 6em;
 }
 
-.text-1  {
+.text-1  {/**titulo metaverso**/
     font-family: 'Dosis';
     background: linear-gradient(180deg, #4d0f43 0%, #B23DC6 78.65%);
     font-family: 'Dosis';
     font-size: 2.2em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: -1em; 
     font-size: 3em;
+    margin-right: -15em;
 }
-.titulo-1{
-    margin: 2.5em;
+.titulo-1{/**titulo metaverso**/
+    margin:6em;
     font-family: 'Dosis';
     font-weight: 500;
 }
 
-.titulo-2{
+.titulo-2{/**pq invertir no mete.. titulo**/
     font-weight: 300;
-    margin: 1.2em;  
+    margin: 0;  
     font-family: 'Dosis';
     height: 4em;
     width: 26em;
-    margin-left: 3.5em;
+    margin-left: 2em;
+    margin-top: -5em;
 }
 .titulo-3{
     font-family: 'Dosis';
     height: 4em;
     width: 26em;
-    margin-left: 3.5em;
+    margin-left: 2em;
 }
 
-.text-start {
-    text-align: left!important;
-    margin-top: 25em;
+.text-start{/**iMAGEM GRUPO**/
+    margin-top: 62em;
 }
 
-.text .img-fluid{
-    margin: 0;
+.text .img-fluid{/**iMAGEM GRUPO**/
+    margin: 5em;
 }
 
-.titul-1{
-    margin: 2.5em;
+.mark1{
     font-family: 'Dosis';
     font-weight: 500;
-    margin: 8em;
+    margin: 6em;
+}
+.text .img-fluid{/**iMAGEM Mark Zuckerberg**/
+    margin-top: -11em;
 }
 
+.mark2{
+    font-family: 'Dosis';
+    height: 4em;
+    width: 26em;
+    margin-left: 2em;
+}
+.invest1{
+    font-family: 'Dosis';
+    font-weight: 500;
+    margin: 7em;
+}
 
 .textoo{
   font-weight: 300;
@@ -110,13 +128,20 @@
 }
 .texto{
     font-weight: 300;
-    margin: 10em;  
+    margin: -9em;  
     font-family: 'Dosis';
     height: 4em;
     width: 26em;
     margin-left: 3.5em;
   
-  }
+}
+
+.titul{
+    margin: 2.5em;
+    font-family: 'Dosis';
+    font-weight: 500;
+    margin: 12em;
+}
 
 /*  pagina avateres */
 .ava1{
@@ -168,11 +193,13 @@ footer span a:hover{
         margin: 1em;
     }
     .navbar-light .navbar-toggler{
-        margin-left: 100px;
+        margin-left: 140px;
+        margin-top: 100px;
+        position: absolute;
     }
 
     .img{
-        width: 4em;
+        width: 7em;
     }
 
 
