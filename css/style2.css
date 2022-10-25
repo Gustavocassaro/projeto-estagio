@@ -1,4 +1,7 @@
 /* pagina investimentos */
+
+
+/*Começo do NAVBAR */
 .navbar {
     position: absolute;
     align-items: center;
@@ -44,42 +47,22 @@
     transition: transform .3s ease-in-out;
 }
 
+/*FINAL DO NAVBAR */
 
- /**  parte da imagem**/
+
+ /**parte da imagem**/
 .img-fluid { 
     position: static;
     margin-top: 6em;
 }
 
-.text-1  {
+.text-1  {/**titulo metaverso**/
     font-family: 'Dosis';
     background: linear-gradient(180deg, #4d0f43 0%, #B23DC6 78.65%);
-    font-family: 'Dosis';
     font-size: 2.2em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: -1em; 
     font-size: 3em;
-}
-h3 {
-    font-family: 'Dosis';
-    width: 36em;
-    margin-left: 4.3em;
-}
-
-.text-start {
-    text-align: left!important;
-    margin-top: 25em;
-}
-
-.text .img-fluid{
-    margin: 0;
-}
-
-.titul-1{
-    margin: 2.5em;
-    font-family: 'Dosis';
-    font-weight: 500;
 }
 
 
@@ -95,11 +78,6 @@ h3 {
     margin: 3em; 
     font-size: 3em;
     margin: 3em;
-}
-.text-avat {
-    font-family: 'Dosis';
-    text-align: center;
-    padding: 100px;
 }
 
 .flex-img {
@@ -122,11 +100,18 @@ h3 {
 
 /*  sessão footer  */
 footer{
+
     height: 10%;
     background-color:#330F4F;   
     padding: 20px ;
     color: #fff;
     text-align: center;
+    height: 10%;
+    background-color:#330F4F;   
+    padding: 20px ;
+    color: #fff;
+    text-align: center;
+
 }
 footer span a{
     color: #ffffff;
@@ -141,18 +126,20 @@ footer span a:hover{
 
  /*Responsividade*/
 
-@media screen and (max-width: 720px) /*celular*/ {
+@media screen and (max-width: 320px) /*celular*/ {
     .titulo-3{
         width: 15em;
         margin-left: 1em;
         margin: 1em;
     }
     .navbar-light .navbar-toggler{
-        margin-left: 11em;
+        margin-left: 110px;
+        margin-top: 100px;
+        position: absolute;
     }
 
     .img{
-        width: 4em;
+        width: 7em;
     }
 
 
