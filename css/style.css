@@ -1,4 +1,6 @@
 /*Navbar*/
+
+
 .navbar {
     position: absolute;
     display: flex;
@@ -164,7 +166,7 @@ main.cards section.card {
 main.cards {
     margin-top: -6em;
     display: flex;
-    gap: 50px; /* LARGURA DE UM CARD E OUTRO (CERTO DESSA VEZ ANA JULIA JUMENTO) */
+    gap:2em; /* LARGURA DE UM CARD E OUTRO (CERTO DESSA VEZ ANA JULIA JUMENTO) */
     padding: 190px;
 }
 main.cards section.card:first-child {
