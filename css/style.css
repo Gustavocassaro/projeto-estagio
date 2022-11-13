@@ -101,7 +101,7 @@
 
 /*retangulo branco*/
 .retangulo{
-    margin:0;
+    margin:0em;
     margin-top: -43em;
     margin-left: 15em;
     box-sizing: border-box;
@@ -132,7 +132,7 @@
 
 #resumo{
     padding: 5em;
-    margin:-9em
+    margin: 4.5em ;
 }
 
 
@@ -161,12 +161,16 @@ main.cards section.card {
     text-align: center;
     padding: 1rem 1.5rem;
     border-radius: 1em;
-    cursor: pointer;
+    transition: 0.8s;
 }
+main.cards section.card:hover {
+    transform: scale(1.1);
+}
+
 main.cards {
     margin-top: -6em;
     display: flex;
-    gap:2em; /* LARGURA DE UM CARD E OUTRO (CERTO DESSA VEZ ANA JULIA JUMENTO) */
+    gap:2.5em; /* LARGURA DE UM CARD E OUTRO (CERTO DESSA VEZ ANA JULIA JUMENTO) */
     padding: 190px;
 }
 main.cards section.card:first-child {
@@ -212,12 +216,15 @@ main.cards section.card.persis {
 
 }
 .count2 .letra {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Dosis';
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
+.img-2{
+    width: 800px;
+}
 .count2 .giphy-embed {
     margin: 7em;
     padding: 6em;
