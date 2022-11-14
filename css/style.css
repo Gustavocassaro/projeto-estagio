@@ -205,8 +205,9 @@ main.cards section.card.persis {
 
 /*carrossel*/
 .w-100 {
-    width: 58%!important;
+    width: 70%!important;
     margin:auto;
+    border-radius: 7px;
 }
 .count2 {
     text-align: left;
@@ -222,9 +223,6 @@ main.cards section.card.persis {
     text-align: center;
 }
 
-.img-2{
-    width: 800px;
-}
 .count2 .giphy-embed {
     margin: 7em;
     padding: 6em;
@@ -283,10 +281,10 @@ footer span a:hover{
         object-fit: cover;
         border-radius: 1.5em;
         margin: 10em ;
-        margin-left: 4em;
+        margin-left: -10em;
     }
     .retangulo{
-        margin-left: 6em;
+        margin-left: -8em;
         margin-top: -35em;
         width: 26em;   
         height: 24em;
@@ -304,6 +302,7 @@ footer span a:hover{
         width: 8em;
         height: 2em;
         top: 10em;
+        padding: 5px;
     }
     main.cards {
         margin: 4em;
@@ -322,11 +321,12 @@ footer span a:hover{
         font-size: 70%;
     }
     .count2 {
-        padding: 30px;
+        padding: 40px 30px 0px 30px;
+        margin: auto;
     }
     .count2 .letra {
-        text-align: justify;
-        font-size: 20px;
+        text-align: center;
+        font-size: 15px;
     }
     .w-100{
         width: 75% !important;
